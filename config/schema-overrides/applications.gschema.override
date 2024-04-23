@@ -1,2 +1,7 @@
+# Favorite applications
 [org.gnome.shell]
 favorite-apps=['org.mozilla.firefox', 'org.gnome.Nautilus.desktop', 'org.gnome.Software.desktop']
+
+# App folders
+[org.gnome.desktop.app-folders.folder]
+apps=['org.gnome.DiskUtility.desktop', 'org.gnome.tweaks.desktop', 'ca.desrt.dconf-editor.desktop']
