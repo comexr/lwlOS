@@ -4,4 +4,4 @@ favorite-apps=['org.mozilla.firefox.desktop', 'org.gnome.Nautilus.desktop', 'org
 enabled-extensions=['reboottouefi@ubaygd.com']
 
 [org.gnome.login-screen]
-logo='/usr/share/fedora-logos/fedora_darkbackground.svg.png'
+logo='/usr/share/fedora-logos/fedora_darkbackground.svg'
