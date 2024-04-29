@@ -1,3 +1,4 @@
-# Favorite applications
+# Favorite applications/Enabled extensions
 [org.gnome.shell]
 favorite-apps=['org.mozilla.firefox.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Software.desktop']
+enabled-extensions=['reboottouefi@ubaygd.com']
