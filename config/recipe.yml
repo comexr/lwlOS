@@ -55,9 +55,9 @@ modules:
       - reboottouefiubaygd.com.v21
       
   - type: yafti
-    custom-flatpaks:
-        - Celluloid: io.github.celluloid_player.Celluloid
-        - Krita: org.kde.krita
+    #custom-flatpaks:
+    #    - Celluloid: io.github.celluloid_player.Celluloid
+    #    - Krita: org.kde.krita
     
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
