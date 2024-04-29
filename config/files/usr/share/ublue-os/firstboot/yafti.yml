@@ -31,29 +31,6 @@ screens:
              - LibreOffice: org.libreoffice.LibreOffice
              - Brave Browser: com.brave.Browser
              - Gimp: org.gimp.GIMP
-  configure-lwl-os:
-    source: yafti.screen.package
-    values:
-      title: Additional Gidro-OS packages & configs
-      show_terminal: true
-      package_manager: yafti.plugin.run
-      groups:         
-        Hide GRUB:
-          description: Hides GRUB text output on boot.
-          default: false
-          packages:
-          - Hide GRUB: pkexec ujust configure-grub hide
-        Remove window close button:
-          description: Removes window close button. Useful for mouses which have special button mapped for window closing.
-          default: false
-          packages:
-          - Remove window close button: ujust configure-close-button hide  
-        Scheduled nightly reboot:
-          description: Enables scheduled nightly reboot to happen in 03:00. Useful for users who leave their PCs on 24/7, but still want system updates applied.
-          default: false
-          packages:
-          - Scheduled nightly reboot: pkexec ujust scheduled-reboot enable         
-         
   final-screen:
     source: yafti.screen.title
     values:
