@@ -6,12 +6,9 @@ screens:
     source: yafti.screen.title
     values:
       title: "Welcome to lwlOS"
-      icon: "/path/to/icon"
+      icon: "/usr/share/fedora-logos/fedora_darkbackground.svg"
       description: |
-        ATTENTION!
-        Please wait for notification that all flatpaks are installed before proceeding!
-
-        Explore useful apps and options!
+        A custom distro tailored for laptops from Laptop With Linux.
   applications:
     source: yafti.screen.package
     values:
@@ -35,11 +32,11 @@ screens:
     source: yafti.screen.title
     values:
       title: "All done!"
-      icon: "/path/to/icon"
+      icon: "/usr/share/fedora-logos/fedora_darkbackground.svg"
       links:
         - "Install More Applications":
             run: /usr/bin/gnome-software
         - "Website":
             run: /usr/bin/xdg-open https://laptopwithlinux.com
       description: |
-        Thanks for trying lwlOS, I hope you enjoy it!
+        Thanks for setting up lwlOS, I hope you enjoy it!
