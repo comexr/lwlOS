@@ -56,11 +56,11 @@ modules:
 
   - type: yafti
     custom-flatpaks:
-      - Firefox: org.mozilla.firefox
-      - Thunderbird: org.mozilla.Thunderbird
-      - LibreOffice: org.libreoffice.LibreOffice
-      - Brave Browser: com.brave.Browser
-      - Gimp: org.gimp.GIMP
+        - Firefox: org.mozilla.firefox
+        - Thunderbird: org.mozilla.Thunderbird
+        - LibreOffice: org.libreoffice.LibreOffice
+        - Brave Browser: com.brave.Browser
+        - Gimp: org.gimp.GIMP
     
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
