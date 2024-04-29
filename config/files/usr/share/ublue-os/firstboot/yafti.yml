@@ -19,8 +19,8 @@ screens:
         user: true
         system: false
       groups:
-        User Apps:
-          description: Additional software
+        Additional Software:
+          description: Additional applications
           default: false
           packages:
              - Firefox: org.mozilla.firefox
@@ -28,6 +28,12 @@ screens:
              - LibreOffice: org.libreoffice.LibreOffice
              - Brave Browser: com.brave.Browser
              - Gimp: org.gimp.GIMP
+             - Skype: com.skype.Client
+             - VLC: org.videolan.VLC
+             - Audacity: org.audacityteam.Audacity
+             - Steam: com.valvesoftware.Steam
+             - Spotify: com.spotify.Client
+             - PuTTY: uk.org.greenend.chiark.sgtatham.putty
   final-screen:
     source: yafti.screen.title
     values:
@@ -39,4 +45,4 @@ screens:
         - "Website":
             run: /usr/bin/xdg-open https://laptopwithlinux.com
       description: |
-        Thanks for setting up lwlOS, I hope you enjoy it!
+        Thanks for setting up lwlOS, we hope you enjoy it!
