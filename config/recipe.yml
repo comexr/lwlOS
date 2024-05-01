@@ -22,6 +22,7 @@ modules:
     repos: 
       - https://copr.fedorainfracloud.org/coprs/szydell/system76/repo/fedora-%OS_VERSION%/szydell-system76-fedora-%OS_VERSION%.repo
     install:
+      - akmod-nvidia
       - system76-firmware
     remove:
       - firefox
