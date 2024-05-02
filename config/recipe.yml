@@ -37,6 +37,11 @@ modules:
     install:
       - ublue-update
 
+  - type: systemd
+    system:
+      enabled: 
+        - ublue-update.service
+
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
     system:
