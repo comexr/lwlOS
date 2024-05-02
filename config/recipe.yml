@@ -33,9 +33,8 @@ modules:
       - yelp
 
   - type: script
-    snippets:
-     # - "sudo rpm-ostree kargs --append=rd.driver.blacklist=nouveau --append=modprobe.blacklist=nouveau --append=nvidia-drm.modeset=1" #Blacklist nouveau
-     - "rpm-ostree upgrade"
+    script:
+      - nvidia.sh #Blacklist nouveau
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
