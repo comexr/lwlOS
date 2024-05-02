@@ -33,10 +33,6 @@ modules:
       - nvtop
       - yelp
 
-  - type: script
-    scripts:
-     # - nvidia.sh #Blacklist nouveau
-
   # - type: bling
   #   install:
   #     - ublue-update
