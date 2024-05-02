@@ -33,9 +33,9 @@ modules:
       - nvtop
       - yelp
 
-  # - type: bling
-  #   install:
-  #     - ublue-update
+  - type: bling
+    install:
+      - ublue-update
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
