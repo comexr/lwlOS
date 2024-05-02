@@ -20,10 +20,10 @@ modules:
 
   - type: rpm-ostree
     repos: 
-      - https://copr.fedorainfracloud.org/coprs/szydell/system76/repo/fedora-%OS_VERSION%/szydell-system76-fedora-%OS_VERSION%.repo
+     # - https://copr.fedorainfracloud.org/coprs/szydell/system76/repo/fedora-%OS_VERSION%/szydell-system76-fedora-%OS_VERSION%.repo
     install:
       - akmod-nvidia
-      - system76-firmware
+     # - system76-firmware
     remove:
       - firefox
       - firefox-langpacks
@@ -31,6 +31,10 @@ modules:
       - htop
       - nvtop
       - yelp
+
+  - type: script
+    snippets:
+      - "rpm-ostree kargs --append=rd.driver.blacklist=nouveau --append=modprobe.blacklist=nouveau --append=nvidia-drm.modeset=1" #Blacklist nouveau
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
