@@ -27,7 +27,6 @@ modules:
     remove:
       - firefox
       - firefox-langpacks
-      - gnome-software-plugin-flatpak
       - gnome-software-rpm-ostree
       - gnome-tour
       - htop
