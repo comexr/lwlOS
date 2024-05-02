@@ -27,6 +27,7 @@ modules:
     remove:
       - firefox
       - firefox-langpacks
+      - gnome-software-plugin-flatpak
       - gnome-software-rpm-ostree
       - gnome-tour
       - htop
@@ -34,7 +35,7 @@ modules:
       - yelp
 
   - type: script
-    script:
+    scripts:
       - nvidia.sh #Blacklist nouveau
 
   - type: default-flatpaks
