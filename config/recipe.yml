@@ -4,7 +4,7 @@ name: lwlos
 description: Custom distro built for laptops from Laptop With Linux.
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/silverblue-nvidia
+base-image: ghcr.io/ublue-os/silverblue
 image-version: latest # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
@@ -23,7 +23,6 @@ modules:
      # - https://copr.fedorainfracloud.org/coprs/szydell/system76/repo/fedora-%OS_VERSION%/szydell-system76-fedora-%OS_VERSION%.repo
     install:
      # - akmod-nvidia
-     # - system76-firmware
     remove:
       - firefox
       - firefox-langpacks
