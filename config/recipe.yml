@@ -56,9 +56,9 @@ modules:
       remove:
         # - org.gnome.eog
 
-  - type: gnome-extensions
-    install:
-      - reboottouefiubaygd.com.v21
+  # - type: gnome-extensions
+  #   install:
+  #     - reboottouefiubaygd.com.v21
       
   - type: yafti
     #custom-flatpaks:
