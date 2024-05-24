@@ -25,13 +25,13 @@ modules:
       - hidapi
      # - akmod-nvidia
     remove:
-      - firefox
-      - firefox-langpacks
-      - gnome-software-rpm-ostree
-      - gnome-tour
-      - htop
-      - nvtop
-      - yelp
+      #- firefox
+      #- firefox-langpacks
+      #- gnome-software-rpm-ostree
+      #- gnome-tour
+      #- htop
+      #- nvtop
+      #- yelp
 
   - type: bling
     install:
