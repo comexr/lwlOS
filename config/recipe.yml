@@ -18,7 +18,7 @@ modules:
           # in /usr/etc/ in the image. read more in files module reference.
       - etc: /etc
 
-  - type: scripts
+  - type: script
     snippets:
       - "sudo setenforce 0 && getenforce" #Disable selinux
 
