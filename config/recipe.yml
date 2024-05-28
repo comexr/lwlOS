@@ -21,6 +21,7 @@ modules:
   - type: script
     snippets:
       - "sudo setenforce 0 && getenforce" #Disable selinux
+    scripts:
 
   - type: rpm-ostree
     repos: 
