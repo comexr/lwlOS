@@ -19,8 +19,8 @@ modules:
       - etc: /etc
 
   - type: scripts
-    scripts:
-      - selinux.sh #Disable selinux
+    snippets:
+      - "sudo setenforce 0 && getenforce" #Disable selinux
 
   - type: rpm-ostree
     repos: 
