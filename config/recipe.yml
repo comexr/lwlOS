@@ -18,6 +18,10 @@ modules:
           # in /usr/etc/ in the image. read more in files module reference.
       - etc: /etc
 
+  - type: scripts
+    scripts:
+      - selinux.sh #Disable selinux
+
   - type: rpm-ostree
     repos: 
      # - https://copr.fedorainfracloud.org/coprs/szydell/system76/repo/fedora-%OS_VERSION%/szydell-system76-fedora-%OS_VERSION%.repo
