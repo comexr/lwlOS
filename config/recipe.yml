@@ -18,9 +18,9 @@ modules:
           # in /usr/etc/ in the image. read more in files module reference.
       - etc: /etc
 
-  - type: script
-    snippets:
-      - "sudo setenforce 0 && getenforce" #Disable selinux
+  # - type: script
+  #   snippets:
+  #     - "sudo setenforce 0 && getenforce" #Disable selinux
 
   - type: rpm-ostree
     repos: 
