@@ -25,5 +25,5 @@ jobs:
       - name: actions-template-sync
         uses: AndreasAugustin/actions-template-sync@v2
         with:
-          source_repo_path: blue-build
+          source_repo_path: blue-build/template
           upstream_branch: main # defaults to main
