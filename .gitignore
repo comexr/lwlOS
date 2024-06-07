@@ -1,7 +1,6 @@
 cosign.key
 cosign.private
 /Containerfile
-
 config/
 recipes/
 modules/
