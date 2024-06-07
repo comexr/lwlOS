@@ -1,3 +1,9 @@
 cosign.key
 cosign.private
 /Containerfile
+
+config/
+recipes/
+modules/
+README.md
+cosign.pub
