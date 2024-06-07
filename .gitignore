@@ -2,7 +2,6 @@ cosign.key
 cosign.private
 /Containerfile
 
-.gitignore
 config/
 recipes/
 modules/
